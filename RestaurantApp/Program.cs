@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace RestaurantApp
 {
-    internal class Program
+    public class Restaurant
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello sit");
-            Console.WriteLine("Week2");
-        }
+        public string type {  get; set; }
+        public double score {  get; set; }
+        public int id { get; set; }              
     }
 }
